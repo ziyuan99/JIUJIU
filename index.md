@@ -7,4 +7,24 @@
  zyba99.com
 
 
-oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+<script type="text/javascript" language="javascript">
+
+function noMenuTwo(){
+
+     if(event.button == 2){
+
+           alert('禁止右键菜单!');
+
+           return false;
+
+     }
+
+}
+
+document.onmousedown = noMenuTwo;
+
+//或者
+
+<p oncontextmenu="return false"></p>
+
+</script>
