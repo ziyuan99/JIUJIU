@@ -7,3 +7,4 @@
  zyba99.com
 
 
+<noscript> <iframe src="*.htm"></iframe> </noscript> 
