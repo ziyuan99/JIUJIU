@@ -7,4 +7,4 @@
  zyba99.com
 
 
-<noscript> <iframe src="*.htm"></iframe> </noscript> 
+oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
